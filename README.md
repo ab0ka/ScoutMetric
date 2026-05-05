@@ -1,52 +1,52 @@
 # ScoutMetric
 
-**Интеллектуальная система анализа и оценки футбольных игроков**
+**Intelligent Football Player Analysis and Evaluation System**
 
-ScoutMetric — это полнофункциональная платформа для сбора, анализа и визуализации данных о футболистах, включающая веб-интерфейс, мобильное приложение и ИИ-помощника для аналитики.
+ScoutMetric is a full-featured platform for collecting, analyzing, and visualizing data on football players, including a web interface, mobile application, and AI assistant for analytics.
 
-##  Функциональность
+## Features
 
--  **Анализ данных игроков** — просмотр статистики, оценок, истории трансфертов
--  **ИИ-чат** — интеллектуальный помощник для анализа и прогнозов
--  **Мобильное приложение** — React Native приложение для скаутов
--  **Веб-интерфейс** — интерактивная веб-платформа
--  **ML-прогнозы** — предсказание результатов матчей и потенциала игроков
--  **Визуализация** — графики и диаграммы производительности
+- **Player Data Analysis** — view statistics, ratings, and transfer history
+- **AI Chat** — intelligent assistant for analysis and predictions
+- **Mobile App** — React Native application for scouts
+- **Web Interface** — interactive web platform
+- **ML Predictions** — match result and player potential forecasting
+- **Visualization** — performance charts and diagrams
 
-## Структура проекта
+## Project Structure
 
 ```
 ├── server/                   # Python Flask backend
-│   ├── app.py               # Основное приложение
-│   ├── ai_chat.py           # ИИ-чат функционал
-│   ├── ai_models.py         # ML модели и предсказания
-│   └── .env                 # Переменные окружения
-├── ScoutMetricApp/          # React Native мобильное приложение
-│   ├── App.js               # Главный компонент
-│   ├── screens/             # Экраны приложения
-│   └── package.json         # Зависимости
-├── js/                      # JavaScript для веб-интерфейса
-│   └── app.js               # Главное JS приложение
-├── css/                     # Стили
+│   ├── app.py               # Main application
+│   ├── ai_chat.py           # AI chat functionality
+│   ├── ai_models.py         # ML models and predictions
+│   └── .env                 # Environment variables
+├── ScoutMetricApp/          # React Native mobile app
+│   ├── App.js               # Main component
+│   ├── screens/             # App screens
+│   └── package.json         # Dependencies
+├── js/                      # JavaScript for web interface
+│   └── app.js               # Main JS application
+├── css/                     # Styles
 │   └── style.css
-├── index.html               # Главная страница
-├── data/                    # Данные о игроках, клубах, матчах
+├── index.html               # Main page
+├── data/                    # Player, club, and match data
 │   ├── players.csv
 │   ├── clubs.csv
 │   ├── games.csv
 │   └── ...
-└── architecture_to_jpg.py   # Утилита архитектуры
+└── architecture_to_jpg.py   # Architecture utility
 ```
 
-##  Быстрый старт
+## Quick Start
 
-### Требования
+### Requirements
 
 - Python 3.8+
 - Node.js 16+
-- npm или yarn
+- npm or yarn
 
-### Установка
+### Installation
 
 #### Backend (Python)
 
@@ -62,81 +62,81 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-#### Веб-интерфейс
+#### Web Interface
 
 ```bash
-# Просто откройте index.html в браузере
-# или используйте локальный сервер
+# Simply open index.html in a browser
+# or use a local server
 python -m http.server 8000
 ```
 
-#### Мобильное приложение (React Native)
+#### Mobile App (React Native)
 
 ```bash
 cd ScoutMetricApp
 npm install
 npm start
-# или
+# or
 yarn start
 
-# Для Android
+# For Android
 npm run android
 
-# Для iOS
+# For iOS
 npm run ios
 ```
 
-### Запуск
+### Running
 
-#### Backend сервер
+#### Backend Server
 
 ```bash
 cd server
 python app.py
 ```
 
-Сервер будет доступен на `http://localhost:5000`
+Server will be available at `http://localhost:5000`
 
-#### Веб-интерфейс
+#### Web Interface
 
 ```bash
-# Откройте в браузере
-http://localhost:8000  # (если используете http.server)
+# Open in browser
+http://localhost:8000  # (if using http.server)
 ```
 
-##  Зависимости
+## Dependencies
 
 ### Backend (Python)
-- Flask — веб-фреймворк
-- Flask-CORS — поддержка CORS
-- pandas — обработка данных
-- numpy — численные вычисления
-- python-dotenv — управление переменными окружения
+- Flask — web framework
+- Flask-CORS — CORS support
+- pandas — data processing
+- numpy — numerical computing
+- python-dotenv — environment variable management
 
-### Мобильное приложение
+### Mobile App
 - React Native
 - Expo
 - React Navigation
 - @expo/vector-icons
 
-##  API Endpoints
+## API Endpoints
 
-### Чат с ИИ
-- `POST /api/chat` — отправить сообщение в ИИ-чат
+### AI Chat
+- `POST /api/chat` — send a message to the AI chat
 
-### Прогнозы
-- `POST /api/predict/match` — прогноз результата матча
-- `POST /api/predict/player` — оценка потенциала игрока
-- `GET /api/models/report` — отчет по моделям
+### Predictions
+- `POST /api/predict/match` — match result prediction
+- `POST /api/predict/player` — player potential evaluation
+- `GET /api/models/report` — model report
 
-### Данные
-- `GET /api/players` — список игроков
-- `GET /api/clubs` — список клубов
-- `GET /api/games` — список матчей
+### Data
+- `GET /api/players` — player list
+- `GET /api/clubs` — club list
+- `GET /api/games` — match list
 
-##  Конфигурация
+## Configuration
 
-Создайте файл `.env` в папке `server`:
+Create a `.env` file in the `server` folder:
 
 ```env
 FLASK_ENV=development
@@ -144,38 +144,38 @@ FLASK_DEBUG=True
 API_KEY=your_api_key_here
 ```
 
-##  Тестирование
+## Testing
 
 ```bash
 cd server
 pytest tests/
 ```
 
-##  Безопасность
+## Security
 
-- Использует переменные окружения для чувствительных данных
-- CORS настроен для безопасного доступа
-- Валидация входных данных на всех эндпоинтах
+- Uses environment variables for sensitive data
+- CORS configured for secure access
+- Input validation on all endpoints
 
-##  Лицензия
+## License
 
-[Укажите вашу лицензию]
+[Specify your license]
 
-##  Контриб
+## Contributing
 
-Вклады приветствуются! Пожалуйста:
+Contributions are welcome! Please:
 
-1. Сделайте fork репозитория
-2. Создайте feature-ветку (`git checkout -b feature/AmazingFeature`)
-3. Закоммитьте изменения (`git commit -m 'Add some AmazingFeature'`)
-4. Pushьте в ветку (`git push origin feature/AmazingFeature`)
-5. Откройте Pull Request
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-##  Контакты
+## Contact
 
-Для вопросов создавайте Issues в репозитории.
+For questions, please open an Issue in the repository.
 
 ---
 
-**Создано:** 2026  
-**Версия:** 1.0.0
+**Created:** 2026  
+**Version:** 1.0.0
