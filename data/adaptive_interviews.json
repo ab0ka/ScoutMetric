@@ -1,0 +1,1042 @@
+[
+  {
+    "interview_id": "409ea3c988e4",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "site",
+    "telegram_username": "",
+    "status": "in_progress",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 40,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 40
+    },
+    "asked_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "m1"
+    ],
+    "answers": [
+      {
+        "question_id": "q1",
+        "dimension": "stress_control",
+        "question": "Опишите самый стрессовый матч за последний сезон и как вы справились с давлением.",
+        "answer": "против барсы было сложно",
+        "created_at": "2026-04-08T12:13:36.993117",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q2",
+        "dimension": "teamwork",
+        "question": "Как вы реагируете, если партнёр по команде регулярно ошибается и мешает результату?",
+        "answer": "плохо",
+        "created_at": "2026-04-08T12:13:53.260963",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q3",
+        "dimension": "motivation",
+        "question": "Что вас мотивирует тренироваться в периоды, когда вы не попадаете в стартовый состав?",
+        "answer": "семья",
+        "created_at": "2026-04-08T12:14:04.996585",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q4",
+        "dimension": "resilience",
+        "question": "Вспомните серьёзную неудачу в карьере. Что вы сделали в следующие 2–3 недели?",
+        "answer": "травма",
+        "created_at": "2026-04-08T12:14:19.510957",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "m1",
+        "dimension": "motivation",
+        "question": "Какую цель на ближайшие 6 месяцев вы считаете для себя ключевой и почему?",
+        "answer": "карьера",
+        "created_at": "2026-04-08T12:14:30.717284",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      }
+    ],
+    "current_question": {
+      "id": "m2",
+      "dimension": "motivation",
+      "text": "Что удерживает вас от эмоционального выгорания на длинной дистанции сезона?"
+    },
+    "created_at": "2026-04-08T12:12:42.978301",
+    "updated_at": "2026-04-08T12:14:30.717310",
+    "completed_at": null,
+    "summary": null
+  },
+  {
+    "interview_id": "9bde4bcebf97",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "telegram",
+    "telegram_username": "@sab1t0v",
+    "telegram_chat_id": "910186018",
+    "status": "invited",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 50,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 50
+    },
+    "asked_question_ids": [],
+    "answers": [],
+    "current_question": null,
+    "created_at": "2026-04-08T14:16:35.519533",
+    "updated_at": "2026-04-08T14:16:35.519544",
+    "completed_at": null,
+    "summary": null
+  },
+  {
+    "interview_id": "1d454666e220",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "telegram",
+    "telegram_username": "@sab1t0v",
+    "telegram_chat_id": "910186018",
+    "status": "invited",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 50,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 50
+    },
+    "asked_question_ids": [],
+    "answers": [],
+    "current_question": null,
+    "created_at": "2026-04-08T14:22:17.427924",
+    "updated_at": "2026-04-08T14:22:17.427931",
+    "completed_at": null,
+    "summary": null
+  },
+  {
+    "interview_id": "a062adc6078b",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "telegram",
+    "telegram_username": "@sab1t0v",
+    "telegram_chat_id": "",
+    "status": "invited",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 50,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 50
+    },
+    "asked_question_ids": [],
+    "answers": [],
+    "current_question": null,
+    "created_at": "2026-04-08T16:09:45.809126",
+    "updated_at": "2026-04-08T16:09:45.809135",
+    "completed_at": null,
+    "summary": null
+  },
+  {
+    "interview_id": "e61bb30884ba",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "telegram",
+    "telegram_username": "@sab1t0v",
+    "telegram_chat_id": "",
+    "status": "invited",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 50,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 50
+    },
+    "asked_question_ids": [],
+    "answers": [],
+    "current_question": null,
+    "created_at": "2026-04-08T16:09:59.452140",
+    "updated_at": "2026-04-08T16:09:59.452147",
+    "completed_at": null,
+    "summary": null
+  },
+  {
+    "interview_id": "90564a1f4c09",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "telegram",
+    "telegram_username": "@sab1t0v",
+    "telegram_chat_id": "910186018",
+    "status": "completed",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 34,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 34
+    },
+    "asked_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "m1",
+      "m2",
+      "s1",
+      "s2"
+    ],
+    "answers": [
+      {
+        "question_id": "q1",
+        "dimension": "stress_control",
+        "question": "Опишите самый стрессовый матч за последний сезон и как вы справились с давлением.",
+        "answer": "цуаыва",
+        "created_at": "2026-04-08T16:14:08.113724",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q2",
+        "dimension": "teamwork",
+        "question": "Как вы реагируете, если партнёр по команде регулярно ошибается и мешает результату?",
+        "answer": "аываыа",
+        "created_at": "2026-04-08T16:14:08.871281",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q3",
+        "dimension": "motivation",
+        "question": "Что вас мотивирует тренироваться в периоды, когда вы не попадаете в стартовый состав?",
+        "answer": "авываы",
+        "created_at": "2026-04-08T16:14:10.075458",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q4",
+        "dimension": "resilience",
+        "question": "Вспомните серьёзную неудачу в карьере. Что вы сделали в следующие 2–3 недели?",
+        "answer": "ываыва",
+        "created_at": "2026-04-08T16:14:11.576944",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "m1",
+        "dimension": "motivation",
+        "question": "Какую цель на ближайшие 6 месяцев вы считаете для себя ключевой и почему?",
+        "answer": "ыаываыва",
+        "created_at": "2026-04-08T16:14:12.948130",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "m2",
+        "dimension": "motivation",
+        "question": "Что удерживает вас от эмоционального выгорания на длинной дистанции сезона?",
+        "answer": "йуйаывп",
+        "created_at": "2026-04-08T16:14:14.996896",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "s1",
+        "dimension": "stress_control",
+        "question": "Какие личные ритуалы помогают вам быстро восстановить концентрацию прямо по ходу матча?",
+        "answer": "йцуйаыва",
+        "created_at": "2026-04-08T16:14:16.243403",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "s2",
+        "dimension": "stress_control",
+        "question": "Что вы делаете после серии неудачных действий в одном тайме?",
+        "answer": "авыаыв",
+        "created_at": "2026-04-08T16:14:18.221360",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      }
+    ],
+    "current_question": null,
+    "created_at": "2026-04-08T16:12:17.997297",
+    "updated_at": "2026-04-08T16:14:19.302083",
+    "completed_at": "2026-04-08T16:14:18.221401",
+    "summary": {
+      "state": "Риск эмоционального выгорания и потери уверенности",
+      "risk_level": "Высокий",
+      "overall_score": 45,
+      "recommendations": [
+        "Поддерживать текущий режим и проводить плановый психологический мониторинг раз в месяц."
+      ]
+    },
+    "telegram_summary_status": {
+      "ok": true,
+      "response": {
+        "ok": true,
+        "result": {
+          "message_id": 9,
+          "from": {
+            "id": 8638534468,
+            "is_bot": true,
+            "first_name": "ScoutMetricBot",
+            "username": "scoutmetric_bot"
+          },
+          "chat": {
+            "id": 910186018,
+            "first_name": "Абзал",
+            "username": "sab1t0v",
+            "type": "private"
+          },
+          "date": 1775646860,
+          "text": "ScoutMetric: итог адаптивного интервью\nИгрок: Kylian Mbappé\nID интервью: 90564a1f4c09\n\nСостояние: Риск эмоционального выгорания и потери уверенности\nРиск: Высокий\nОбщий балл: 45\n\nМетрики\n• stress_control: 50\n• teamwork: 50\n• motivation: 34\n• resilience: 50\n• discipline: 50\n• confidence: 34\n\nРекомендации\n• Поддерживать текущий режим и проводить плановый психологический мониторинг раз в месяц.",
+          "entities": [
+            {
+              "offset": 0,
+              "length": 38,
+              "type": "bold"
+            },
+            {
+              "offset": 46,
+              "length": 13,
+              "type": "bold"
+            },
+            {
+              "offset": 73,
+              "length": 12,
+              "type": "code"
+            },
+            {
+              "offset": 98,
+              "length": 50,
+              "type": "bold"
+            },
+            {
+              "offset": 155,
+              "length": 7,
+              "type": "bold"
+            },
+            {
+              "offset": 175,
+              "length": 2,
+              "type": "bold"
+            },
+            {
+              "offset": 179,
+              "length": 7,
+              "type": "bold"
+            },
+            {
+              "offset": 292,
+              "length": 12,
+              "type": "bold"
+            }
+          ]
+        }
+      }
+    }
+  },
+  {
+    "interview_id": "fbc547f4f405",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "telegram",
+    "telegram_username": "@sab1t0v",
+    "telegram_chat_id": "910186018",
+    "status": "invited",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 50,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 50
+    },
+    "asked_question_ids": [],
+    "answers": [],
+    "current_question": null,
+    "created_at": "2026-04-08T16:28:38.933184",
+    "updated_at": "2026-04-08T16:28:38.933194",
+    "completed_at": null,
+    "summary": null
+  },
+  {
+    "interview_id": "0749ee0f3c61",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "site",
+    "telegram_username": "",
+    "telegram_chat_id": "",
+    "status": "completed",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 34,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 34
+    },
+    "asked_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "m1",
+      "m2",
+      "s1",
+      "s2"
+    ],
+    "answers": [
+      {
+        "question_id": "q1",
+        "dimension": "stress_control",
+        "question": "Опишите самый стрессовый матч за последний сезон и как вы справились с давлением.",
+        "answer": "рагфроаф",
+        "created_at": "2026-04-08T16:32:57.470972",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q2",
+        "dimension": "teamwork",
+        "question": "Как вы реагируете, если партнёр по команде регулярно ошибается и мешает результату?",
+        "answer": "ыаолфа",
+        "created_at": "2026-04-08T16:33:00.156765",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q3",
+        "dimension": "motivation",
+        "question": "Что вас мотивирует тренироваться в периоды, когда вы не попадаете в стартовый состав?",
+        "answer": "выаорыа",
+        "created_at": "2026-04-08T16:33:02.507054",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q4",
+        "dimension": "resilience",
+        "question": "Вспомните серьёзную неудачу в карьере. Что вы сделали в следующие 2–3 недели?",
+        "answer": "воарывоа",
+        "created_at": "2026-04-08T16:33:04.622934",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "m1",
+        "dimension": "motivation",
+        "question": "Какую цель на ближайшие 6 месяцев вы считаете для себя ключевой и почему?",
+        "answer": "оарвыоа",
+        "created_at": "2026-04-08T16:33:06.433670",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "m2",
+        "dimension": "motivation",
+        "question": "Что удерживает вас от эмоционального выгорания на длинной дистанции сезона?",
+        "answer": "выароыва",
+        "created_at": "2026-04-08T16:33:08.627418",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "s1",
+        "dimension": "stress_control",
+        "question": "Какие личные ритуалы помогают вам быстро восстановить концентрацию прямо по ходу матча?",
+        "answer": "лвоалдывоп",
+        "created_at": "2026-04-08T16:33:11.138159",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "s2",
+        "dimension": "stress_control",
+        "question": "Что вы делаете после серии неудачных действий в одном тайме?",
+        "answer": "ылаофлжао",
+        "created_at": "2026-04-08T16:33:13.378367",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      }
+    ],
+    "current_question": null,
+    "created_at": "2026-04-08T16:32:52.059226",
+    "updated_at": "2026-04-08T16:33:13.378405",
+    "completed_at": "2026-04-08T16:33:13.378402",
+    "summary": {
+      "state": "Риск эмоционального выгорания и потери уверенности",
+      "risk_level": "Высокий",
+      "overall_score": 45,
+      "recommendations": [
+        "Поддерживать текущий режим и проводить плановый психологический мониторинг раз в месяц."
+      ]
+    }
+  },
+  {
+    "interview_id": "055f4a43eeb0",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "site",
+    "telegram_username": "",
+    "telegram_chat_id": "",
+    "status": "completed",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 38,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 38
+    },
+    "asked_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "m1",
+      "m2",
+      "s1",
+      "s2"
+    ],
+    "answers": [
+      {
+        "question_id": "q1",
+        "dimension": "stress_control",
+        "question": "Опишите самый стрессовый матч за последний сезон и как вы справились с давлением.",
+        "answer": "го",
+        "created_at": "2026-04-08T16:34:47.368898",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q2",
+        "dimension": "teamwork",
+        "question": "Как вы реагируете, если партнёр по команде регулярно ошибается и мешает результату?",
+        "answer": "суии",
+        "created_at": "2026-04-08T16:34:50.505178",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q3",
+        "dimension": "motivation",
+        "question": "Что вас мотивирует тренироваться в периоды, когда вы не попадаете в стартовый состав?",
+        "answer": "сууууууууууууууууууууууууууууи",
+        "created_at": "2026-04-08T16:34:53.759431",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": 0,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": 0
+        }
+      },
+      {
+        "question_id": "q4",
+        "dimension": "resilience",
+        "question": "Вспомните серьёзную неудачу в карьере. Что вы сделали в следующие 2–3 недели?",
+        "answer": "суи",
+        "created_at": "2026-04-08T16:34:58.178860",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "m1",
+        "dimension": "motivation",
+        "question": "Какую цель на ближайшие 6 месяцев вы считаете для себя ключевой и почему?",
+        "answer": "суууууууууууууу",
+        "created_at": "2026-04-08T16:35:02.812923",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "m2",
+        "dimension": "motivation",
+        "question": "Что удерживает вас от эмоционального выгорания на длинной дистанции сезона?",
+        "answer": "сууууууууууууу",
+        "created_at": "2026-04-08T16:35:06.775676",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "s1",
+        "dimension": "stress_control",
+        "question": "Какие личные ритуалы помогают вам быстро восстановить концентрацию прямо по ходу матча?",
+        "answer": "сууууууууууууууууууи",
+        "created_at": "2026-04-08T16:35:13.766771",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "s2",
+        "dimension": "stress_control",
+        "question": "Что вы делаете после серии неудачных действий в одном тайме?",
+        "answer": "суууууууууууууууууууууууи",
+        "created_at": "2026-04-08T16:35:18.097192",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": 0,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": 0
+        }
+      }
+    ],
+    "current_question": null,
+    "created_at": "2026-04-08T16:34:37.897121",
+    "updated_at": "2026-04-08T16:35:18.097247",
+    "completed_at": "2026-04-08T16:35:18.097241",
+    "summary": {
+      "state": "Нужна точечная психологическая поддержка",
+      "risk_level": "Повышенный",
+      "overall_score": 46,
+      "recommendations": [
+        "Поддерживать текущий режим и проводить плановый психологический мониторинг раз в месяц."
+      ]
+    }
+  },
+  {
+    "interview_id": "815568934ba2",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "site",
+    "telegram_username": "",
+    "telegram_chat_id": "",
+    "status": "completed",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 34,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 34
+    },
+    "asked_question_ids": [
+      "q1",
+      "q2",
+      "q3",
+      "q4",
+      "m1",
+      "m2",
+      "s1",
+      "s2"
+    ],
+    "answers": [
+      {
+        "question_id": "q1",
+        "dimension": "stress_control",
+        "question": "Опишите самый стрессовый матч за последний сезон и как вы справились с давлением.",
+        "answer": "пвкпвкпвк",
+        "created_at": "2026-04-08T16:37:30.954867",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q2",
+        "dimension": "teamwork",
+        "question": "Как вы реагируете, если партнёр по команде регулярно ошибается и мешает результату?",
+        "answer": "вавав",
+        "created_at": "2026-04-08T16:37:39.591880",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q3",
+        "dimension": "motivation",
+        "question": "Что вас мотивирует тренироваться в периоды, когда вы не попадаете в стартовый состав?",
+        "answer": "кпвкпв",
+        "created_at": "2026-04-08T16:37:42.143551",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q4",
+        "dimension": "resilience",
+        "question": "Вспомните серьёзную неудачу в карьере. Что вы сделали в следующие 2–3 недели?",
+        "answer": "вкпеонаоао",
+        "created_at": "2026-04-08T16:37:47.661085",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "m1",
+        "dimension": "motivation",
+        "question": "Какую цель на ближайшие 6 месяцев вы считаете для себя ключевой и почему?",
+        "answer": "вппвппк",
+        "created_at": "2026-04-08T16:37:50.994789",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "m2",
+        "dimension": "motivation",
+        "question": "Что удерживает вас от эмоционального выгорания на длинной дистанции сезона?",
+        "answer": "евррепв",
+        "created_at": "2026-04-08T16:37:54.440776",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "s1",
+        "dimension": "stress_control",
+        "question": "Какие личные ритуалы помогают вам быстро восстановить концентрацию прямо по ходу матча?",
+        "answer": "вппеи",
+        "created_at": "2026-04-08T16:37:57.166170",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "s2",
+        "dimension": "stress_control",
+        "question": "Что вы делаете после серии неудачных действий в одном тайме?",
+        "answer": "веееиппи",
+        "created_at": "2026-04-08T16:38:01.155505",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      }
+    ],
+    "current_question": null,
+    "created_at": "2026-04-08T16:37:15.412500",
+    "updated_at": "2026-04-08T16:38:01.155549",
+    "completed_at": "2026-04-08T16:38:01.155545",
+    "summary": {
+      "state": "Риск эмоционального выгорания и потери уверенности",
+      "risk_level": "Высокий",
+      "overall_score": 45,
+      "recommendations": [
+        "Поддерживать текущий режим и проводить плановый психологический мониторинг раз в месяц."
+      ]
+    }
+  },
+  {
+    "interview_id": "ecec2f67aa01",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Lamine Yamal",
+    "channel": "site",
+    "telegram_username": "",
+    "telegram_chat_id": "",
+    "status": "in_progress",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 47,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 47
+    },
+    "asked_question_ids": [
+      "q1",
+      "q2"
+    ],
+    "answers": [
+      {
+        "question_id": "q1",
+        "dimension": "stress_control",
+        "question": "Опишите самый стрессовый матч за последний сезон и как вы справились с давлением.",
+        "answer": "последний матч был тяжелым",
+        "created_at": "2026-04-15T13:09:15.694924",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -2,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -2
+        }
+      },
+      {
+        "question_id": "q2",
+        "dimension": "teamwork",
+        "question": "Как вы реагируете, если партнёр по команде регулярно ошибается и мешает результату?",
+        "answer": "попробую подбодрить",
+        "created_at": "2026-04-15T13:09:29.390259",
+        "impact": {
+          "stress_control": 0,
+          "teamwork": 0,
+          "motivation": -1,
+          "resilience": 0,
+          "discipline": 0,
+          "confidence": -1
+        }
+      }
+    ],
+    "current_question": {
+      "id": "q3",
+      "dimension": "motivation",
+      "text": "Что вас мотивирует тренироваться в периоды, когда вы не попадаете в стартовый состав?"
+    },
+    "created_at": "2026-04-15T13:08:56.821362",
+    "updated_at": "2026-04-15T13:09:29.390512",
+    "completed_at": null,
+    "summary": null
+  },
+  {
+    "interview_id": "c6c575e627a2",
+    "scout_id": "sabyt",
+    "player_id": null,
+    "player_name": "Kylian Mbappé",
+    "channel": "site",
+    "telegram_username": "",
+    "telegram_chat_id": "",
+    "status": "in_progress",
+    "metrics": {
+      "stress_control": 50,
+      "teamwork": 50,
+      "motivation": 50,
+      "resilience": 50,
+      "discipline": 50,
+      "confidence": 50
+    },
+    "asked_question_ids": [],
+    "answers": [],
+    "current_question": {
+      "id": "q1",
+      "dimension": "stress_control",
+      "text": "Опишите самый стрессовый матч за последний сезон и как вы справились с давлением."
+    },
+    "created_at": "2026-04-22T11:02:22.986939",
+    "updated_at": "2026-04-22T11:02:23.663118",
+    "completed_at": null,
+    "summary": null
+  }
+]

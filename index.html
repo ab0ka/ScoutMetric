@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScoutMetric — профессиональная платформа для скаутов</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 32 32" fill="none">
+                            <polygon points="16,2 30,10 30,22 16,30 2,22 2,10" fill="none" stroke="#0066FF" stroke-width="2"/>
+                            <polygon points="16,8 24,13 24,19 16,24 8,19 8,13" fill="#0066FF" opacity="0.15"/>
+                            <circle cx="16" cy="16" r="3" fill="#0066FF"/>
+                        </svg>
+                    </div>
+                    <span class="logo-text">Scout<span class="logo-accent">Metric</span></span>
+                </div>
+                <div class="logo-tagline">PRO SCOUTING PLATFORM</div>
+            </div>
+
+            <div class="nav-section-label">НАВИГАЦИЯ</div>
+            <nav class="nav">
+                <div class="nav-item active" data-page="dashboard">
+                    <div class="nav-icon-wrap">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <rect x="3" y="3" width="7" height="9" rx="1.5"/>
+                            <rect x="14" y="3" width="7" height="5" rx="1.5"/>
+                            <rect x="14" y="12" width="7" height="9" rx="1.5"/>
+                            <rect x="3" y="16" width="7" height="5" rx="1.5"/>
+                        </svg>
+                    </div>
+                    <span>Дашборд</span>
+                    <div class="nav-indicator"></div>
+                </div>
+                <div class="nav-item" data-page="players">
+                    <div class="nav-icon-wrap">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <circle cx="12" cy="8" r="4"/>
+                            <path d="M5.5 20v-2a5 5 0 0 1 10 0v2"/>
+                        </svg>
+                    </div>
+                    <span>Игроки</span>
+                    <div class="nav-indicator"></div>
+                </div>
+                <div class="nav-item" data-page="clubs">
+                    <div class="nav-icon-wrap">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                        </svg>
+                    </div>
+                    <span>Клубы</span>
+                    <div class="nav-indicator"></div>
+                </div>
+                <div class="nav-item" data-page="games">
+                    <div class="nav-icon-wrap">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <span>Матчи</span>
+                    <div class="nav-indicator"></div>
+                </div>
+                <div class="nav-item" data-page="transfers">
+                    <div class="nav-icon-wrap">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M17 1l4 4-4 4"/><path d="M3 11V9a4 4 0 0 1 4-4h14"/>
+                            <path d="M7 23l-4-4 4-4"/><path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+                        </svg>
+                    </div>
+                    <span>Трансферы</span>
+                    <div class="nav-indicator"></div>
+                </div>
+            </nav>
+
+            <div class="nav-item" data-page="ai">
+                <div class="nav-icon-wrap">
+                    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                        <path d="M12 2a4 4 0 0 1 4 4v1h1a3 3 0 0 1 3 3v2a3 3 0 0 1-3 3h-1v1a4 4 0 0 1-8 0v-1H7a3 3 0 0 1-3-3V10a3 3 0 0 1 3-3h1V6a4 4 0 0 1 4-4z"/>
+                        <circle cx="9" cy="11" r="1" fill="currentColor"/>
+                        <circle cx="15" cy="11" r="1" fill="currentColor"/>
+                    </svg>
+                </div>
+                <span>AI Анализ</span>
+                <div class="nav-indicator"></div>
+            </div>
+
+            <div class="nav-section-label" style="margin-top:8px">ИНСТРУМЕНТЫ</div>
+            <nav class="nav">
+                <div class="nav-item" data-page="reports">
+                    <div class="nav-icon-wrap">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                        </svg>
+                    </div>
+                    <span>Отчеты</span>
+                    <div class="nav-indicator"></div>
+                </div>
+                <div class="nav-item" data-page="watchlist">
+                    <div class="nav-icon-wrap">
+                        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7z"/>
+                            <circle cx="12" cy="12" r="3"/>
+                        </svg>
+                    </div>
+                    <span>Наблюдение</span>
+                    <div class="nav-badge" id="watchlistBadge" style="display:none">0</div>
+                    <div class="nav-indicator"></div>
+                </div>
+            </nav>
+
+            <!-- Scout Status Card -->
+            <div class="scout-status">
+                <div class="scout-status-header">
+                    <div class="scout-status-dot"></div>
+                    <span>Активная сессия</span>
+                </div>
+                <div class="scout-stats-mini">
+                    <div class="ssm-item">
+                        <span class="ssm-val" id="wlCount">0</span>
+                        <span class="ssm-lbl">В наблюдении</span>
+                    </div>
+                    <div class="ssm-div"></div>
+                    <div class="ssm-item">
+                        <span class="ssm-val" id="notesCount">0</span>
+                        <span class="ssm-lbl">Заметок</span>
+                    </div>
+                    <div class="ssm-div"></div>
+                    <div class="ssm-item">
+                        <span class="ssm-val" id="recCount">0</span>
+                        <span class="ssm-lbl">Рекоменд.</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Scout Bottom Panel -->
+            <div class="scout-bottom-panel" id="scoutBottomPanel" onclick="openScoutProfile()" title="Открыть профиль скаута">
+                <div class="sbp-top">
+                    <div class="sbp-avatar">АС</div>
+                    <div class="sbp-info">
+                        <div class="sbp-name">Сәбит Абзал</div>
+                        <div class="sbp-role">Старший скаут · ФК Астана</div>
+                    </div>
+                    <div class="sbp-online"></div>
+                </div>
+                <div class="sbp-heatmap" id="sbpHeatmap"></div>
+                <div class="sbp-hint">Нажмите для подробного профиля</div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main">
+            <div class="top-bar">
+                <div class="top-bar-left">
+                    <div class="breadcrumb" id="breadcrumb">
+                        <span class="breadcrumb-root">ScoutMetric</span>
+                        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"/></svg>
+                        <span class="breadcrumb-current" id="pageTitle">Дашборд</span>
+                    </div>
+                </div>
+                <div class="top-bar-right">
+                    <div class="search-bar" id="globalSearch">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                        <input type="text" placeholder="Поиск игрока, клуба..." id="globalSearchInput">
+                    </div>
+                    <div class="action-buttons" id="authButtons">
+                        <button class="btn btn-outline btn-sm" onclick="auth.showLogin()">Войти</button>
+                        <button class="btn btn-primary btn-sm" onclick="auth.showRegister()">Регистрация</button>
+                    </div>
+                    <div class="user-menu" id="userMenu" style="display: none;">
+                        <span class="user-email" id="userEmail"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic Content -->
+            <div id="content" class="content-fade"></div>
+        </main>
+    </div>
+
+    <!-- Login Modal -->
+    <div class="modal-overlay" id="loginModal">
+        <div class="modal modal-wide">
+            <div class="modal-header">
+                <div class="modal-logo">
+                    <svg viewBox="0 0 32 32" fill="none" width="28" height="28">
+                        <polygon points="16,2 30,10 30,22 16,30 2,22 2,10" fill="none" stroke="#0066FF" stroke-width="2"/>
+                        <circle cx="16" cy="16" r="4" fill="#0066FF"/>
+                    </svg>
+                </div>
+                <h2 class="modal-title">Вход в ScoutMetric</h2>
+                <p class="modal-subtitle">Войдите в платформу профессионального скаутинга</p>
+            </div>
+            <div id="loginError" style="display:none;background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.3);border-radius:8px;padding:10px 14px;font-size:12px;color:#EF4444;margin-bottom:14px"></div>
+            <div class="form-group">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-input" id="loginEmail" placeholder="scout@example.com" onkeydown="if(event.key==='Enter')auth.login()">
+            </div>
+            <div class="form-group">
+                <label class="form-label">Пароль</label>
+                <div style="position:relative">
+                    <input type="password" class="form-input" id="loginPassword" placeholder="••••••••" onkeydown="if(event.key==='Enter')auth.login()">
+                    <button onclick="auth.togglePass('loginPassword',this)" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--text-muted);cursor:pointer;padding:4px">
+                        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </button>
+                </div>
+            </div>
+            <div style="font-size:11px;color:var(--text-muted);margin-bottom:16px;padding:10px 12px;background:var(--bg-secondary);border-radius:8px;border:1px solid var(--border-dim)">
+                Тест: <strong style="color:var(--text-secondary)">sabyt@fcastana.kz</strong> / <strong style="color:var(--text-secondary)">admin123</strong>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-outline" onclick="auth.hideModal('loginModal')">Отмена</button>
+                <button class="btn btn-primary" onclick="auth.login()" id="loginBtn">
+                    <span id="loginBtnText">Войти</span>
+                </button>
+            </div>
+            <div class="switch-text">Нет аккаунта? <span class="link" onclick="auth.switchToRegister()">Зарегистрироваться</span></div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal-overlay" id="registerModal">
+        <div class="modal modal-wide">
+            <div class="modal-header">
+                <div class="modal-logo">
+                    <svg viewBox="0 0 32 32" fill="none" width="28" height="28">
+                        <polygon points="16,2 30,10 30,22 16,30 2,22 2,10" fill="none" stroke="#0066FF" stroke-width="2"/>
+                        <circle cx="16" cy="16" r="4" fill="#0066FF"/>
+                    </svg>
+                </div>
+                <h2 class="modal-title">Регистрация скаута</h2>
+                <p class="modal-subtitle">Создайте профессиональный аккаунт</p>
+            </div>
+            <div id="regError" style="display:none;background:rgba(239,68,68,0.1);border:1px solid rgba(239,68,68,0.3);border-radius:8px;padding:10px 14px;font-size:12px;color:#EF4444;margin-bottom:14px"></div>
+
+            <!-- Step 1: личные данные -->
+            <div id="regStep1">
+                <div style="font-size:10px;font-weight:700;color:var(--accent-bright);letter-spacing:.08em;margin-bottom:12px">ШАГ 1 / 2 — ЛИЧНЫЕ ДАННЫЕ</div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Полное имя *</label>
+                        <input type="text" class="form-input" id="regName" placeholder="Сәбит Абзал">
+                    </div>
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Дата рождения</label>
+                        <input type="date" class="form-input" id="regDob">
+                    </div>
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Email *</label>
+                        <input type="email" class="form-input" id="regEmail" placeholder="scout@club.kz">
+                    </div>
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Телефон</label>
+                        <input type="tel" class="form-input" id="regPhone" placeholder="+7 777 000 00 00">
+                    </div>
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Пароль *</label>
+                        <div style="position:relative">
+                            <input type="password" class="form-input" id="regPassword" placeholder="мин. 6 символов">
+                            <button onclick="auth.togglePass('regPassword',this)" style="position:absolute;right:12px;top:50%;transform:translateY(-50%);background:none;border:none;color:var(--text-muted);cursor:pointer;padding:4px">
+                                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Страна</label>
+                        <input type="text" class="form-input" id="regCountry" placeholder="Казахстан">
+                    </div>
+                </div>
+                <div class="modal-footer" style="margin-top:20px">
+                    <button class="btn btn-outline" onclick="auth.hideModal('registerModal')">Отмена</button>
+                    <button class="btn btn-primary" onclick="auth.regStep2()">Далее →</button>
+                </div>
+            </div>
+
+            <!-- Step 2: профессиональные данные -->
+            <div id="regStep2" style="display:none">
+                <div style="font-size:10px;font-weight:700;color:var(--accent-bright);letter-spacing:.08em;margin-bottom:12px">ШАГ 2 / 2 — ПРОФЕССИОНАЛЬНЫЕ ДАННЫЕ</div>
+                <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px">
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Должность</label>
+                        <input type="text" class="form-input" id="regRole" placeholder="Скаут" value="Скаут">
+                    </div>
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Клуб / Организация</label>
+                        <input type="text" class="form-input" id="regClub" placeholder="ФК Астана">
+                    </div>
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Регион скаутинга</label>
+                        <input type="text" class="form-input" id="regRegion" placeholder="Казахстан, Европа">
+                    </div>
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Лицензия UEFA</label>
+                        <select class="form-input" id="regLicense">
+                            <option value="">— Выбрать —</option>
+                            <option value="UEFA Pro">UEFA Pro</option>
+                            <option value="UEFA A">UEFA A</option>
+                            <option value="UEFA B">UEFA B</option>
+                            <option value="UEFA C">UEFA C</option>
+                            <option value="Нет">Нет лицензии</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Специализация (позиции)</label>
+                        <input type="text" class="form-input" id="regSpec" placeholder="Нападающие, Полузащита">
+                    </div>
+                    <div class="form-group" style="margin:0">
+                        <label class="form-label">Опыт (лет)</label>
+                        <input type="number" class="form-input" id="regExp" placeholder="0" min="0" max="50">
+                    </div>
+                </div>
+                <div class="form-group" style="margin-top:12px">
+                    <label class="form-label">О себе</label>
+                    <textarea class="form-input" id="regBio" rows="2" placeholder="Опыт работы, достижения, специализация..." style="resize:none;font-family:inherit"></textarea>
+                </div>
+                <div class="modal-footer" style="margin-top:16px">
+                    <button class="btn btn-outline" onclick="auth.backToStep1()">← Назад</button>
+                    <button class="btn btn-primary" onclick="auth.register()" id="regBtn">
+                        <span id="regBtnText">Создать аккаунт</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="switch-text">Уже есть аккаунт? <span class="link" onclick="auth.switchToLogin()">Войти</span></div>
+        </div>
+    </div>
+
+    <!-- Подключение JavaScript (ВАЖНО!) -->
+    <script src="js/app.js"></script>
+</body>
+</html>
